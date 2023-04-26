@@ -28,6 +28,6 @@ Unibuddy provides numerous benefits to universities and students alike, includin
 
 # Link Of Hosted Project : https://uni-buddy.netlify.app/
 
-#Visit Master Branch for Source Code
+# Visit Master Branch for Source Code
 
 # Created By: Riteesh Kumar, Vanshika Kaul , Kunal Chawla 
