@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+@keyframes side-left {
+  from {
+    position: absolute;
+    top: -100px;
+  }
+}
+
+header h1 {
+  font-family: "Ubuntu Mono", monospace;
+  color: #146eb4;
+  margin: 0.5em 1em;
+  animation-name: side-left;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+@keyframes side {
+  from {
+    margin-left: 100vw;
+  }
+}
+/* section img {
+  width: 99.8vw;
+  height: 50vh;
+  border-top: 0px;
+  border-radius: 0px 0px 20px 20px;
+  z-index: -1;
+  animation: side;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+} */
+@keyframes upward {
+  from {
+    margin-top: 80vh;
+  }
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  gap: 1.5rem;
+  justify-content: center;
+  flex: 0 0 100%;
+  margin-top: 10px;
+  z-index: 1;
+  animation-name: upward;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+.box {
+  aspect-ratio: 3 / 2;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(0 0 0 / 0.05),
+    0.15rem 0.15rem 0.75rem rgb(0 0 0 / 0.1);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (min-width:800px) {
+  /* section img
+  {
+    width: 50vw;
+    align-items: center;
+    position: relative;
+    left: 25%;
+  } */
+  .listc
+  {
+    height: 110vh;
+  }
+  
+}

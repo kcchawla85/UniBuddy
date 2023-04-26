@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); /* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");/*font-family: "Ubuntu Mono", monospace;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #146eb4;
+  display: block;
+}
+a
+{
+  text-decoration: none;
+}
+body
+{
+    background: url(images/bglist.png) center fixed;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding: 1em;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+.flist 
+{
+  position: relative;
+  left: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40vw);
+  /* align-items: center; */
+}
+.fitem {
+  display: flex;
+  margin-top: 2em;
+  padding: 0.3em;
+  margin-left: 10px;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.fimg img
+{
+    width: 20vw;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.buttons
+{
+    display: flex;
+    flex-direction:column;
+    gap: 1em;
+}
+.fname h2
+{
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 2.5em;
+}
+.buttons
+{
+    padding: 0em 2em;
+}
+button
+{
+    background: #146eb4;
+    color: white;
+    padding: 0.3em;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 2em;
+    width: 12vw;
+    font-weight: bold;
+}
+@media screen and (max-width:800px) {
+  .fitem{
+    display: flex;
+    flex-direction: column;
+  }
+button
+{
+  width: 30vw;
+}
+.fname h2
+{
+  font-size: 1.5em;
+}
+.flist 
+{
+  position: relative;
+  left: 0%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50vw);
+  /* align-items: center; */
+}
+  
+}
